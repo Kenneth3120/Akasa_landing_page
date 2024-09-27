@@ -379,7 +379,7 @@ export const links = [
     id: "0",
     title: "Ios",
     icon: <Ios />,
-    url: "#",
+    url: "https://github.com/Kenneth3120",
   },
   {
     id: "1",
@@ -397,7 +397,7 @@ export const links = [
     id: "3",
     title: "Web",
     icon: <Web />,
-    url: "#",
+    url: "https://www.akasaair.com/",
   },
 ];
 

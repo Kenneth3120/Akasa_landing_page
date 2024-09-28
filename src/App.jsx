@@ -8,7 +8,7 @@ import Testimonials from "./sections/Testimonials.jsx";
 import Download from "./sections/Download.jsx";
 import Footer from "./sections/Footer.jsx";
 
-const App = () => {
+export const App = () => {
   return (
     <main className="overflow-hidden">
       <Header />
@@ -16,7 +16,7 @@ const App = () => {
       <Features />
       <Pricing />
       <Faq />
-      <Testimonials />
+      {/*<Testimonials />*/}
       <Download />
       <Footer />
     </main>

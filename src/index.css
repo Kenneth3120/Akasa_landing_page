@@ -177,9 +177,16 @@
 
   /* END of Header */
   /* START of Hero */
+  /*.hero-img_res {*/
+  /*  @apply max-lg:-top-20 max-lg:left-[calc(-100%-280px)] max-lg:w-[1000px] max-md:bottom-[-500px] max-md:left-[calc(5%-390px)] max-md:top-auto;*/
+  /*}*/
+
   .hero-img_res {
-    @apply max-lg:-top-40 max-lg:left-[calc(50%-280px)] max-lg:w-[1160px] max-md:bottom-[-590px] max-md:left-[calc(50%-390px)] max-md:top-auto;
+    @apply max-lg:-top-40 max-lg:left-[calc(200%-280px)] max-lg:w-[1000px]
+    max-md:bottom-[-120px] max-md:left-[calc(95%-390px)] max-md:top-auto
+    max-sm:w-[400px]; /* Adjust width for small screens */
   }
+
 
   /* END of Hero */
   /*START of Custom Button*/

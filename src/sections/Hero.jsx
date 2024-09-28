@@ -11,8 +11,8 @@ const Hero = () => {
             <div className="caption-bottom small-2 uppercase text-p3">
               Video Editing
             </div>
-            <h1 className="mb-6 h1 text-p4 uppercase max-lg:mb-7 max-lg:h2 max-md:mb-4 max-md:text-5xl max-md:leading-12">
-              Awesome Kenneth
+            <h1 className=" mb-6 h1 text-purple-200 uppercase max-lg:mb-7 max-lg:h2 max-md:mb-4 max-md:text-5xl max-md:leading-12">
+              WELCOME
             </h1>
             <p className="max-w-440 mb-14 body-1 max-md:mb-10">
               We Designed Ken AI The best AI assistant to be an easy to use,
@@ -24,8 +24,8 @@ const Hero = () => {
           </div>
           <div className="absolute -top-32 left-[calc(50%-340px)] w-[1230px] pointer-events-none hero-img_res">
             <img
-              src="/images/hero.png"
-              className="size-1230 max-lg:h-auto"
+              src="/images/AkasaTH.svg"
+              className="size-1100 max-lg:h-auto"
               alt="hero"
             />
           </div>

@@ -2,23 +2,24 @@ export const features = [
   {
     id: "0",
     icon: "/images/feature-1.png",
-    caption: "Easy integration",
-    title: "Work smarter not harder",
-    text: "With Xora, tedious tasks are history. Automation and smart processes bring your productivity to new heights. It's like having an extra cup of coffee, but without the jitters.",
+    caption: "Safety First",
+    title: "Affordable Fares",
+    text: "We offer the best Budget friendly fares to travel to your desired destination. Travel with ease and get the best food by our partners.",
     button: {
       icon: "/images/magictouch.svg",
-      title: "Watch the demo",
+      title: "Fly with us!",
     },
   },
   {
     id: "1",
     icon: "/images/feature-2.png",
-    caption: "Secure & trustworthy",
-    title: "Sleep easy, we got your back",
-    text: "Your data security is our priority. With state-of-the-art encryption and robust privacy controls, Xora helps keeps your information secure and locked up tighter than Fort Knox.",
+    caption: "Safe and Comfortable",
+    title: "Customer Satisfaction",
+    text: "We try to satisfy our customers as much as possible with the best cabin crew on board. Sit back, relax and Fly with us!",
     button: {
       icon: "/images/docs.svg",
-      title: "Read the docs",
+      title: "Book Tickets",
+      url: "#",
     },
   },
 ];
@@ -27,99 +28,105 @@ export const details = [
   {
     id: "0",
     icon: "/images/detail-1.png",
-    title: "AI automated video editing",
+    title: "Fuel Efficient Fleet",
   },
   {
     id: "1",
     icon: "/images/detail-2.png",
-    title: "Collaborate with your team",
+    title: "Environmentally Friendly",
   },
   {
     id: "2",
     icon: "/images/detail-3.png",
-    title: "Ultra fast cloud-engine",
+    title: "Comfortable Seating",
   },
   {
     id: "3",
     icon: "/images/detail-4.png",
     title: "24 / 7 Customer support",
   },
+  {
+    id: "4",
+    icon: "/images/detail-4.png",
+    title: "Digital Experience with Animations",
+  },
 ];
 
 export const faq = [
   {
     id: "0",
-    question: "How easy is it to setup Xora?",
+    question: "How can I book a flight on Akasa Air?",
     answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+      "You can book a flight on Akasa Air through our official website, mobile app, or by visiting authorized travel agents. We accept various payment methods for your convenience.",
   },
   {
     id: "1",
-    question: "Can I integrate Xora with other platforms?",
+    question: "What is Akasa Air's baggage policy?",
     answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+      "Passengers are allowed one piece of hand baggage weighing up to 7 kg and one piece of check-in baggage up to 15 kg. Excess baggage will incur additional charges as per our baggage policy.",
   },
   {
     id: "2",
-    question: "How often do you add new content?",
+    question: "How do I check my flight status?",
     answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+      "You can check the status of your Akasa Air flight on our website or mobile app by entering your flight number and travel date. Alternatively, you can contact our customer support for updates.",
   },
   {
     id: "3",
-    question: "What your refund policy?",
+    question: "What happens if I miss my flight?",
     answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+      'If you miss your flight, the fare is non-refundable, and your booking will be considered as a "no-show." You may have the option to book the next available flight, subject to availability and applicable fees.',
   },
   {
     id: "4",
-    question: "Do you have corporate plans?",
+    question: "Can I make changes to my booking?",
     answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+      "Yes, changes to your booking, such as date or time modifications, can be made through our website or mobile app. Additional charges may apply depending on the fare class and the time of modification.",
   },
   {
     id: "5",
-    question: "What happens when I’m out of storage?",
+    question: "What is Akasa Air's cancellation policy?",
     answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+      "You can cancel your flight up to 24 hours before departure. Refunds will be processed according to the fare rules, and cancellation fees may apply depending on the time of cancellation.",
   },
   {
     id: "6",
-    question: "Can I upgrade my plan?",
+    question: "Does Akasa Air offer in-flight meals?",
     answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+      "Yes, Akasa Air offers a range of in-flight meals and beverages that can be pre-ordered during booking or purchased onboard. We have a variety of options, including vegetarian and non-vegetarian meals.",
   },
   {
     id: "7",
-    question: "How do I invite my team?",
+    question: "What safety measures are in place on Akasa Air?",
     answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+      "Akasa Air adheres to all safety protocols set by aviation authorities. This includes mandatory face masks, enhanced cleaning procedures, HEPA filters on aircraft, and social distancing during boarding and deboarding.",
   },
   {
     id: "8",
-    question: "Do you offer training for individuals and teams?",
+    question: "D How can I contact Akasa Air customer service?",
     answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+      "You can reach our customer service team via phone, email, or live chat on our website. We also have social media channels where you can send queries.",
   },
   {
     id: "9",
-    question: "I’m locked out of my account what do I do?",
+    question: "Can I travel with pets on Akasa Air?",
     answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+      "Yes, Akasa Air allows small pets in the cabin or larger pets in the cargo hold, subject to our pet travel policy. Please ensure you notify us in advance and adhere to the guidelines on pet carriers and health certificates.",
   },
 ];
 
 export const plans = [
   {
     id: "0",
-    title: "Core",
-    priceMonthly: 19,
-    priceYearly: 12,
-    caption: "Best for solo creators",
+    title: "Plan Meta",
+    priceMonthly: 21999,
+    priceYearly: 17999,
+    caption: "Best Holiday Package",
     features: [
-      "100MB Cloud storage",
-      "100+ prompt templates",
-      "5 projects",
+      "Two way trip covered ",
+      "Travel Insurance Granted",
+      "Hotel Stays for 3 nights covered",
+      "Airport Assistance",
       "24/7 support",
     ],
     icon: "/images/circle.svg",
@@ -127,30 +134,31 @@ export const plans = [
   },
   {
     id: "1",
-    title: "Overdrive",
-    priceMonthly: 79,
-    priceYearly: 59,
+    title: "Plan Ecstasy",
+    priceMonthly: 59999,
+    priceYearly: 56999,
     caption: "Most popular plan",
     features: [
-      "All Starter features",
-      "1TB additional storage",
-      "Unlimited projects",
-      "Analytics",
+      "Five Star Stay and Food for 3 Nights",
+      "Two way Domestic flight with insurance",
+      "Business Class Travel Granted",
+      "Enjoy Personal assistance ",
     ],
     icon: "/images/triangle.svg",
-    logo: "/images/plan-2.png",
+    logo: "/images/earth1.svg",
   },
   {
     id: "2",
-    title: "Team",
-    priceMonthly: 39,
-    priceYearly: 29,
-    caption: "Exclusively for teams",
+    title: "Plan Meta 2",
+    priceMonthly: 29999,
+    priceYearly: 27999,
+    caption: "Exclusive",
     features: [
-      "All Overdrive features",
-      "10TB additional storage",
-      "50% off per member",
-      "Real-time collaboration",
+      "Travel and Airport assistance",
+      "Pickup and Drop Service",
+      "Airport Lounge Access",
+      "4 nights Stay",
+      "Get Assistance",
     ],
     icon: "/images/hexagon.svg",
     logo: "/images/plan-3.png",
@@ -379,22 +387,22 @@ export const links = [
     id: "0",
     title: "Ios",
     icon: <Ios />,
-    url: "https://github.com/Kenneth3120",
+    url: "https://apps.apple.com/in/app/akasa-air/id1629829548",
   },
   {
     id: "1",
     title: "Android",
     icon: <Android />,
-    url: "#",
+    url: "https://play.google.com/store/apps/details?id=com.akasaair.ibe&hl=en_IN",
   },
   {
     id: "2",
     title: "Windows",
     icon: <Windows />,
-    url: "#",
+    url: "https://www.akasaair.com/",
   },
   {
-    id: "3",
+    id: "2",
     title: "Web",
     icon: <Web />,
     url: "https://www.akasaair.com/",

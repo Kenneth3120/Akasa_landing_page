@@ -1,5 +1,5 @@
 import React from "react";
-import { Element } from "react-scroll";
+import { Element, Link } from "react-scroll"; // Import Link from react-scroll
 import { details, features } from "../constants/index.jsx";
 import Button from "../Components/Button.jsx";
 
@@ -16,7 +16,7 @@ export const Features = () => {
               >
                 <div className="w-full flex justify-start items-start">
                   <div className="-ml-3 mb-12 flex items-center justify-center flex-col">
-                    <div className="w-0.5 h-16 bg-s3" />
+                    <div className="w-0.5 h-16 bg-sky-400" />
                     <img
                       src={icon}
                       className="size-28 object-contain"
@@ -24,11 +24,14 @@ export const Features = () => {
                     />
                   </div>
                 </div>
-                <p className="caption mb-5 max-md:mb-6">{caption}</p>
-                <h2 className="max-w-400 mb-7 h3 text-p4 max-md:mb-6 max-md:h5">
+                <p className="caption mb-5 max-md:mb-6 ">{caption}</p>
+                <h2 className="max-w-400 mb-7 h3 text-p4 max-md:mb-6 max-md:h5 text-purple-200">
                   {title}
                 </h2>
                 <p className="mb-11 body-1 max-md:mb-8 max-md:body-3">{text}</p>
+
+                {/* Use Link from react-scroll for smooth scrolling */}
+
                 <Button icon={button.icon}>{button.title}</Button>
               </div>
             ))}
@@ -63,4 +66,5 @@ export const Features = () => {
     </section>
   );
 };
+
 export default Features;

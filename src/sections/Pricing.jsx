@@ -79,7 +79,7 @@ const Pricing = () => {
                     alt={plan.title}
                     className={clsx(
                       "object-contain drop-shadow-2xl",
-                      index === 1 ? "size-[120px]" : "size-[88px]",
+                      index === 1 ? "size-[120px] " : "size-[88px]",
                     )}
                   />
                 </div>
@@ -93,7 +93,9 @@ const Pricing = () => {
                   <div
                     className={clsx(
                       "small-2 rounded-20 relative z-2 mx-auto mb-6 border-2 px-4 py-1.5 uppercase",
-                      index === 1 ? "border-p3 text-p3" : "border-p1 text-p1",
+                      index === 1
+                        ? "border-b-pink-400 text-orange-500"
+                        : "border-p1 text-p1",
                     )}
                   >
                     {plan.title}
@@ -103,10 +105,10 @@ const Pricing = () => {
                     <div
                       className={clsx(
                         "h-num flex items-start",
-                        index === 1 ? "text-p3" : "text-p4",
+                        index === 1 ? "text-yellow-200" : "text-p4",
                       )}
                     >
-                      ${" "}
+                      ₹{" "}
                       <CountUp
                         start={plan.priceMonthly}
                         end={monthly ? plan.priceMonthly : plan.priceYearly}
@@ -147,11 +149,11 @@ const Pricing = () => {
                 </ul>
 
                 <div className="mt-10 flex w-full justify-center">
-                  <Button icon={plan.icon}>Get Started</Button>
+                  <Button icon={plan.icon}>Know More</Button>
                 </div>
 
                 {index === 1 && (
-                  <p className="small-compact mt-9 text-center text-p3 before:mx-2.5 before:content-['-'] after:mx-2.5 after:content-['-']">
+                  <p className="small-compact mt-9 text-center text-yellow-300 before:mx-2.5 before:content-['-'] after:mx-2.5 after:content-['-']">
                     Limited time offer
                   </p>
                 )}

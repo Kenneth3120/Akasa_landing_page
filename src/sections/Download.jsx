@@ -8,7 +8,7 @@ const Download = () => {
     <section>
       <Element
         name="download"
-        className="g7 relative pb-32 pt-24 max-lg:pb-24 max-md:py-16"
+        className="g9 relative pb-32 pt-24 max-lg:pb-24 max-md:py-16"
       >
         <div className="container">
           <div className="flex items-center">
@@ -18,7 +18,7 @@ const Download = () => {
                   src="/images/Akasa_Air_logo.svg"
                   width={160}
                   height={55}
-                  alt="xora"
+                  alt="logo"
                 />
               </div>
 
@@ -60,7 +60,7 @@ const Download = () => {
                   <span className="download_preview-dot left-16 bg-p1/15" />
 
                   <img
-                    src="/images/screen.jpg"
+                    src="/images/downloads_A.svg"
                     width={855}
                     height={655}
                     alt="screen"
@@ -71,13 +71,13 @@ const Download = () => {
             </div>
           </div>
 
-          <ul className="mt-24 flex justify-center max-lg:hidden">
-            {logos.map(({ id, url, width, height, title }) => (
-              <li key={id} className="mx-10">
-                <img src={url} width={width} height={height} alt={title} />
-              </li>
-            ))}
-          </ul>
+          {/*<ul className="mt-24 flex justify-center max-lg:hidden">*/}
+          {/*  {logos.map(({ id, url, width, height, title }) => (*/}
+          {/*    <li key={id} className="mx-10">*/}
+          {/*      <img src={url} width={width} height={height} alt={title} />*/}
+          {/*    </li>*/}
+          {/*  ))}*/}
+          {/*</ul>*/}
         </div>
       </Element>
     </section>

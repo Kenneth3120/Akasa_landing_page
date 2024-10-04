@@ -1,6 +1,10 @@
 import { Element } from "react-scroll";
 import { faq } from "../constants/index.jsx";
-import FaqItem from "../components/FaqItem.jsx";
+import FaqItem from "../Components/FaqItem.jsx";
+// import { useState } from "react";
+import { Slide } from "react-slide";
+// import "react-slide/lib/slidedown.css"; // Comment out or remove this line
+
 
 const Faq = () => {
   const halfLength = Math.floor(faq.length / 2);
